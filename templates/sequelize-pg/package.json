@@ -1,0 +1,27 @@
+{
+  "name": "project-name-placeholder",
+  "version": "1.0.0",
+  "description": "Node.js + TypeScript backend starter with Sequelize + PostgreSQL",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "sequelize": "^6.37.3",
+    "pg": "^8.13.0",
+    "pg-hstore": "^2.3.4",
+    "joi": "^17.13.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "sequelize-cli": "^6.6.2",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.19.7",
+    "tsx": "^4.21.0"
+  }
+}

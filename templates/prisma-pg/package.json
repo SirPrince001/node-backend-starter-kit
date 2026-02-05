@@ -1,0 +1,14 @@
+{
+  "name": "project-name-placeholder",
+  "version": "1.0.0",
+  "description": "Node.js + TypeScript backend with Prisma + PostgreSQL",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
